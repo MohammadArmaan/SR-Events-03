@@ -127,7 +127,7 @@ export default function Portfolio() {
             : project.category === category;
     });
     return (
-        <div className="container mx-auto p-5">
+        <div className="container mx-auto">
             <Fade
                 direction="up"
                 delay={400}
@@ -139,7 +139,7 @@ export default function Portfolio() {
                     Our Portfolio
                 </h2>
             </Fade>
-            <Tabs defaultValue={category} className="mb-24 xl:mb-48">
+            <Tabs defaultValue={category} className="mb-24 xl:mb-48 p-2">
                 <Fade
                     direction="up"
                     delay={600}

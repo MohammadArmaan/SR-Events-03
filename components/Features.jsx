@@ -35,7 +35,7 @@ const features = [
 
 export default function Features() {
     return (
-        <section className="pb-12 xl:py-24">
+        <section className="pb-12 py-24">
             <div className="container mx-auto">
                 <Fade
                     direction="up"
@@ -68,7 +68,7 @@ export default function Features() {
                             damping={1e-1}
                             triggerOnce={true}
                         >
-                            <p className="mt-6 text-lg leading-8 text-black dark:text-white">
+                            <p className="mt-6 text-md leading-8 text-black dark:text-white">
                                 To be a leading name in photography and event
                                 management, known for our artistic excellence,
                                 innovative solutions, and unparalleled customer

@@ -94,7 +94,7 @@ export default function Hero() {
                 </div>
                 <div className="py-24 sm:py-32">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+                        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center justify-center mx-auto lg:grid-cols-3">
                             <Fade
                                 direction="right"
                                 delay={400}
@@ -102,7 +102,7 @@ export default function Hero() {
                                 damping={1e-1}
                                 triggerOnce={true}
                             >
-                                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                                <div className="mx-auto flex max-w-xs flex-col items-center justify-center gap-y-4">
                                     <dt className="text-base leading-7 text-gray-200">
                                         Years of Experience
                                     </dt>
@@ -115,7 +115,7 @@ export default function Hero() {
                                         />
                                     </dd>
                                 </div>
-                                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                                <div className="mx-auto flex max-w-xs flex-col items-center justify-center gap-y-4">
                                     <dt className="text-base leading-7 text-gray-200">
                                         Followers
                                     </dt>
@@ -128,7 +128,7 @@ export default function Hero() {
                                         />
                                     </dd>
                                 </div>
-                                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                                <div className="mx-auto flex max-w-xs flex-col items-center justify-center gap-y-4">
                                     <dt className="text-base leading-7 text-gray-200">
                                         Projects
                                     </dt>

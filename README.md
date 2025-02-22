@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SR Portraits & Events
 
-## Getting Started
+Welcome to **SR Portraits & Events**, your go-to destination for professional photography and event management. We specialize in capturing timeless moments and delivering seamless event experiences.
 
-First, run the development server:
+## 🌐 Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit: [SR Portraits & Events](https://sr-events-03.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 About the Project
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project is built using **Next.js** and features a stunning portfolio showcasing event photography, videography, and decorations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Features
 
-## Learn More
+- Beautiful and responsive UI/UX
+- Dedicated pages for **Photography, Videography, Events, and Decorations**
+- Portfolio showcasing past projects
+- Contact page for inquiries
+- Smooth animations and transitions
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js** – For SSR and SSG
+- **React** – Component-based UI
+- **Tailwind CSS** – Responsive styling
+- **Shadcn/ui** – Modern UI components
+- **Framer Motion** – Smooth animations
+- **React Icons** – Icon support
 
-## Deploy on Vercel
+## 📬 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For any inquiries, visit the **Contact Us** page on our website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2025 SR Portraits & Events. All rights reserved.
+
+

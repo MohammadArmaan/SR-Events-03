@@ -47,7 +47,7 @@ export default function Vision() {
                                 damping={1e-1}
                                 triggerOnce={true}
                             >
-                                <div className="mt-6 flex max-w-md gap-x-4">
+                                <div className="mt-6 flex flex-col md:flex-row gap-y-4 max-w-md gap-x-4">
                                     <label className="sr-only">
                                         Email Address
                                     </label>
@@ -80,7 +80,7 @@ export default function Vision() {
                                     <dt className="mt-4 font-semibold text-muted-foreground">
                                         Weeky Articles
                                     </dt>
-                                    <dd className="mt-2 leading-7">
+                                    <dd className="mt-2 leading-7 dark:text-black">
                                         Stay updated with insightful articles
                                         covering various topics every week.
                                         Explore engaging content that informs,
@@ -95,7 +95,7 @@ export default function Vision() {
                                     <dt className="mt-4 font-semibold text-muted-foreground">
                                         Unforgettable Experiences
                                     </dt>
-                                    <dd className="mt-2 leading-7">
+                                    <dd className="mt-2 leading-7 dark:text-black">
                                         We craft extraordinary events tailored
                                         to your vision. Whether it's a corporate
                                         gathering, wedding, or special

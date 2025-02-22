@@ -9,7 +9,12 @@ const links = [
     { path: "/contact", name: "contact" },
 ];
 
-export default function Nav({ containerStyles, linkStyles, underlineStyles }) {
+export default function Nav({
+    containerStyles,
+    linkStyles,
+    underlineStyles,
+    onLinkClick,
+}) {
     const path = usePathname();
     return (
         <nav className={`${containerStyles}`}>
@@ -18,6 +23,9 @@ export default function Nav({ containerStyles, linkStyles, underlineStyles }) {
                     href={link.path}
                     key={index}
                     className={`capitalize ${linkStyles}`}
+                    onClick={() => {
+                        if (onLinkClick) onLinkClick(); // Close the mobile nav
+                    }}
                 >
                     {link.path === path && (
                         <motion.span
