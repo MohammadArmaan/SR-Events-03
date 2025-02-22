@@ -6,7 +6,7 @@ const projectData = [
     {
         image: "/work/1.jpeg",
         category: "Wedding",
-        name: "February 11, 2025",
+        name: "Dream Wedding",
         description: "Elegant wedding moments captured beautifully.",
         link: "/",
         codepen: "/",
@@ -14,7 +14,7 @@ const projectData = [
     {
         image: "/work/8.jpeg",
         category: "Pre-Wedding",
-        name: "February 1, 2025",
+        name: "Romantic Escape",
         description: "Romantic pre-wedding shoot in stunning locations.",
         link: "/",
         codepen: "/",
@@ -22,7 +22,7 @@ const projectData = [
     {
         image: "/work/6.jpeg",
         category: "Corporate Event",
-        name: "January 11, 2025",
+        name: "Biz Summit",
         description: "Professional corporate event coverage with highlights.",
         link: "/",
         codepen: "/",
@@ -30,7 +30,7 @@ const projectData = [
     {
         image: "/work/7.jpeg",
         category: "Corporate Event",
-        name: "December 25, 2024",
+        name: "Gala Night",
         description: "Exclusive corporate gala with premium photography.",
         link: "/",
         codepen: "/",
@@ -38,7 +38,7 @@ const projectData = [
     {
         image: "/work/3.jpeg",
         category: "Party",
-        name: "February 2, 2025",
+        name: "Neon Bash",
         description: "Vibrant party moments with energetic captures.",
         link: "/",
         codepen: "/",
@@ -46,7 +46,7 @@ const projectData = [
     {
         image: "/work/2.jpeg",
         category: "Wedding",
-        name: "January 2, 2025",
+        name: "Everlasting Love",
         description: "Timeless wedding memories with candid shots.",
         link: "/",
         codepen: "/",
@@ -54,7 +54,7 @@ const projectData = [
     {
         image: "/work/5.webp",
         category: "Seminar",
-        name: "January 29, 2025",
+        name: "Inspire 2025",
         description: "Engaging seminar photography with speaker highlights.",
         link: "/",
         codepen: "/",
@@ -62,12 +62,13 @@ const projectData = [
     {
         image: "/work/4.jpeg",
         category: "Party",
-        name: "November 29, 2024",
+        name: "VIP Night",
         description: "Exclusive party photography with lively moments.",
         link: "/",
         codepen: "/",
     },
 ];
+
 
 export default function Gallery() {
     return (

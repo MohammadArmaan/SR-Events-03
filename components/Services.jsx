@@ -97,7 +97,7 @@ export default function Services() {
                         </div>
                     </Fade>
                 </div>
-                    <Link href="/" className="text-primary hover:underline mx-auto text-center mt-20">View All Our Services</Link>
+                    <Link href="/portfolio" className="text-primary hover:underline mx-auto text-center mt-20">View All Our Services</Link>
             </div>
         </section>
     );

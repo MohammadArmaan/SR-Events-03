@@ -11,7 +11,7 @@ export default function Hero() {
     const textArray = [
         "Let's make magic!",
         "Capturing timeless moments!",
-        "Creating unforgettable experiences!",
+        "Creating memorable experiences!",
     ];
     const [text, setText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
