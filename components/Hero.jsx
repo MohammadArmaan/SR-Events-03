@@ -50,7 +50,7 @@ export default function Hero() {
         <section className="relative py-12 xl:py-24 text-white overflow-hidden">
             <div className="absolute inset-0 animate-gradient-bg bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-500"></div>
             <div className="relative container mx-auto">
-                <div className="flex justify-between gap-x-8">
+                <div className="flex justify-center  lg:justify-between lg:gap-x-8">
                     <div className="flex max-w-[800px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
                         <Fade
                             direction="up"
@@ -59,11 +59,11 @@ export default function Hero() {
                             damping={1e-1}
                             triggerOnce={true}
                         >
-                            <div className="text-sm uppercase font-semibold mb-4 text-white tracking-[4px]">
+                            <div className="text-xs md:text-sm uppercase font-semibold mb-4 text-white tracking-[4px]">
                                 SR Portraits & Events
                             </div>
                         </Fade>
-                        <h1 className="h1 text-4xl font-bold">{text}|</h1>
+                        <h1 className="text-5xl md:text-6xl font-bold">{text}|</h1>
                         <p className="max-w-[590px] mt-4 mx-auto xl:mx-0 text-white">
                             SR Portraits and Events is a premier photography and
                             event management company dedicated to capturing
