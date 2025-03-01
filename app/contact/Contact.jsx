@@ -26,7 +26,7 @@ export default function Contact() {
                         triggerOnce={true}
                     >
                         <h1 className="h1 max-w-md mb-8">
-                            Let&apos;s work together.
+                        Reach Out to Us
                         </h1>
                     </Fade>
                     <Fade
@@ -37,12 +37,12 @@ export default function Contact() {
                         triggerOnce={true}
                     >
                         <p className="subtitle max-w-[400px]">
-                            Thank you so much for considering us to orgainize
-                            your events, it really is such an honour. Intrested
-                            in learning more oor just want to say hello? kindly
-                            fill out the contact form below and we will contact
-                            you as soon as possible! We can&apos;t wait to hear
-                            from you and orgainze your beautifull ocation.
+                            Thank you for considering us to organize your
+                            event—it truly means a lot! If you have any
+                            questions or would like to get started, simply fill
+                            out the contact form below. We’ll be in touch as
+                            soon as possible. We look forward to making your
+                            event special!
                         </p>
                     </Fade>
                 </div>

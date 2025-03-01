@@ -5,49 +5,48 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 
+
 const portfolioData = [
     // Events
     {
-        image: "/work/1.jpeg",
+        image: "/work/18.webp",
         category: "Events",
-        name: "Grand Wedding Reception",
-        description:
-            "An extravagant wedding reception with stunning decor and lighting.",
+        name: "Engagement Ceremony",
+        description: "Elegant decor and lighting for a special day.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/6.jpeg",
+        image: "/work/19.jpeg",
         category: "Events",
-        name: "Corporate Conference",
-        description: "Professional coverage of a high-profile corporate event.",
+        name: "Cultural Fest",
+        description: "Traditional performances and vibrant decor.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/3.jpeg",
+        image: "/work/24.png",
         category: "Events",
-        name: "Birthday Bash",
-        description:
-            "Fun-filled birthday celebration captured in vivid detail.",
+        name: "School Annual Day",
+        description: "Celebrating students with performances & awards.",
         link: "/",
         codepen: "/",
     },
 
     // Photography
     {
-        image: "/work/1.jpeg",
+        image: "/work/23.jpeg",
         category: "Photography",
-        name: "Bridal Portraits",
-        description: "Elegant and timeless bridal photography.",
+        name: "Baby Shower",
+        description: "Heartwarming baby shower moments captured.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/2.jpeg",
+        image: "/work/27.webp",
         category: "Photography",
-        name: "Wedding Photography",
-        description: "A religuos wedding highlights",
+        name: "Student Photography",
+        description: "Memorable school group portraits.",
         link: "/",
         codepen: "/",
     },
@@ -55,7 +54,7 @@ const portfolioData = [
         image: "/work/10.jpeg",
         category: "Photography",
         name: "Fashion Shoot",
-        description: "Stylized fashion photography with creative lighting.",
+        description: "Creative lighting and stylized shots.",
         link: "/",
         codepen: "/",
     },
@@ -65,23 +64,23 @@ const portfolioData = [
         image: "/work/12.jpeg",
         category: "Videography",
         name: "Wedding Highlights",
-        description: "Beautifully crafted wedding highlight video moments.",
+        description: "Beautiful moments in cinematic style.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/7.jpeg",
+        image: "/work/21.jpeg",
         category: "Videography",
-        name: "Corporate Branding Video",
-        description: "Engaging promotional video for brand awareness.",
+        name: "Anniversary Video",
+        description: "Capturing precious memories beautifully.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/11.jpeg",
+        image: "/work/28.jpeg",
         category: "Videography",
-        name: "Music Video Production",
-        description: "Creative and high-quality music video production.",
+        name: "Sports Coverage",
+        description: "Exciting sports moments on camera.",
         link: "/",
         codepen: "/",
     },
@@ -90,29 +89,139 @@ const portfolioData = [
     {
         image: "/work/14.jpeg",
         category: "Decorations",
-        name: "Luxury Wedding Decor",
-        description: "Stunning floral and theme-based wedding decorations.",
+        name: "Wedding Decor",
+        description: "Elegant floral and theme-based decor.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/13.webp",
+        image: "/work/22.jpeg",
         category: "Decorations",
-        name: "Birthday Party Theme Setup",
-        description: "Themed birthday decorations with customized backdrops.",
+        name: "Engagement Decor",
+        description: "Beautiful backdrops for engagements.",
         link: "/",
         codepen: "/",
     },
     {
-        image: "/work/15.jpeg",
+        image: "/work/26.png",
         category: "Decorations",
-        name: "Corporate Event Setup",
-        description:
-            "Professional and elegant event decor for corporate gatherings.",
+        name: "Building Illumination",
+        description: "Festive lights for special occasions.",
         link: "/",
         codepen: "/",
     },
 ];
+
+
+
+// const portfolioData = [
+//     // Events
+//     {
+//         image: "/work/1.jpeg",
+//         category: "Events",
+//         name: "Grand Wedding Reception",
+//         description:
+//             "An extravagant wedding reception with stunning decor and lighting.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/6.jpeg",
+//         category: "Events",
+//         name: "Corporate Conference",
+//         description: "Professional coverage of a high-profile corporate event.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/3.jpeg",
+//         category: "Events",
+//         name: "Birthday Bash",
+//         description:
+//             "Fun-filled birthday celebration captured in vivid detail.",
+//         link: "/",
+//         codepen: "/",
+//     },
+
+//     // Photography
+//     {
+//         image: "/work/1.jpeg",
+//         category: "Photography",
+//         name: "Bridal Portraits",
+//         description: "Elegant and timeless bridal photography.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/2.jpeg",
+//         category: "Photography",
+//         name: "Wedding Photography",
+//         description: "A religuos wedding highlights",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/10.jpeg",
+//         category: "Photography",
+//         name: "Fashion Shoot",
+//         description: "Stylized fashion photography with creative lighting.",
+//         link: "/",
+//         codepen: "/",
+//     },
+
+//     // Videography
+//     {
+//         image: "/work/12.jpeg",
+//         category: "Videography",
+//         name: "Wedding Highlights",
+//         description: "Beautifully crafted wedding highlight video moments.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/7.jpeg",
+//         category: "Videography",
+//         name: "Corporate Branding Video",
+//         description: "Engaging promotional video for brand awareness.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/11.jpeg",
+//         category: "Videography",
+//         name: "Music Video Production",
+//         description: "Creative and high-quality music video production.",
+//         link: "/",
+//         codepen: "/",
+//     },
+
+//     // Decorations
+//     {
+//         image: "/work/14.jpeg",
+//         category: "Decorations",
+//         name: "Luxury Wedding Decor",
+//         description: "Stunning floral and theme-based wedding decorations.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/13.webp",
+//         category: "Decorations",
+//         name: "Birthday Party Theme Setup",
+//         description: "Themed birthday decorations with customized backdrops.",
+//         link: "/",
+//         codepen: "/",
+//     },
+//     {
+//         image: "/work/15.jpeg",
+//         category: "Decorations",
+//         name: "Corporate Event Setup",
+//         description:
+//             "Professional and elegant event decor for corporate gatherings.",
+//         link: "/",
+//         codepen: "/",
+//     },
+// ];
 
 const uniqueCategories = [
     "all categories",

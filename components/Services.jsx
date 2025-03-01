@@ -7,51 +7,91 @@ import {
     CardTitle,
 } from "./ui/card";
 
-import { Camera, Video, Plane, Monitor, Sparkles, Heart } from "lucide-react";
+import { Camera, Video, Plane, Monitor, Sparkles, Heart, Music, Utensils, Package } from "lucide-react";
 import Link from "next/link";
+
+// const servicesData = [
+//     {
+//         icon: <Camera size={48} strokeWidth={1} />,
+//         title: "Professional Photography",
+//         description:
+//             "Capture stunning moments with high-resolution photography tailored for every occasion.",
+//     },
+//     {
+//         icon: <Video size={48} strokeWidth={1} />,
+//         title: "Cinematic Videography",
+//         description:
+//             "Experience cinematic storytelling with professional-grade video production services.",
+//     },
+//     {
+//         icon: <Plane size={48} strokeWidth={1} />,
+//         title: "Aerial Drone Shots",
+//         description:
+//             "Take your visuals to new heights with breathtaking drone cinematics and photography.",
+//     },
+//     {
+//         icon: <Monitor size={48} strokeWidth={1} />,
+//         title: "LED Screen Displays",
+//         description:
+//             "Enhance your events with high-quality LED screens for impactful presentations and visuals.",
+//     },
+//     {
+//         icon: <Sparkles size={48} strokeWidth={1} />,
+//         title: "Event Decorations",
+//         description:
+//             "Transform any venue with stunning decorations that set the perfect ambiance.",
+//     },
+//     {
+//         icon: <Heart size={48} strokeWidth={1} />,
+//         title: "Dream Wedding Services",
+//         description:
+//             "Make your special day unforgettable with expert wedding planning and photography.",
+//     },
+// ];
 
 const servicesData = [
     {
         icon: <Camera size={48} strokeWidth={1} />,
-        title: "Professional Photography",
+        title: "Photography & Videography",
         description:
-            "Capture stunning moments with high-resolution photography tailored for every occasion.",
-    },
-    {
-        icon: <Video size={48} strokeWidth={1} />,
-        title: "Cinematic Videography",
-        description:
-            "Experience cinematic storytelling with professional-grade video production services.",
-    },
-    {
-        icon: <Plane size={48} strokeWidth={1} />,
-        title: "Aerial Drone Shots",
-        description:
-            "Take your visuals to new heights with breathtaking drone cinematics and photography.",
+            "Capture every moment with professional photography and cinematic videography, ensuring high-quality visuals for your special occasions.",
     },
     {
         icon: <Monitor size={48} strokeWidth={1} />,
-        title: "LED Screen Displays",
+        title: "Event Planning & Setup",
         description:
-            "Enhance your events with high-quality LED screens for impactful presentations and visuals.",
-    },
-    {
-        icon: <Sparkles size={48} strokeWidth={1} />,
-        title: "Event Decorations",
-        description:
-            "Transform any venue with stunning decorations that set the perfect ambiance.",
+            "From LED screens to venue decorations, we create the perfect atmosphere with stunning visuals, lighting, and sound arrangements.",
     },
     {
         icon: <Heart size={48} strokeWidth={1} />,
-        title: "Dream Wedding Services",
+        title: "Wedding & Traditional Services",
         description:
-            "Make your special day unforgettable with expert wedding planning and photography.",
+            "Make your wedding memorable with services like makeup, Mangal Vadya, welcome dancers, and customized decor.",
+    },
+    {
+        icon: <Music size={48} strokeWidth={1} />,
+        title: "Entertainment & Performances",
+        description:
+            "Engage your guests with live music, DJs, cultural performances, and interactive entertainment tailored to your event.",
+    },
+    {
+        icon: <Utensils size={48} strokeWidth={1} />,
+        title: "Catering & Hospitality",
+        description:
+            "Delight your guests with a wide range of catering services, featuring exquisite cuisines and impeccable hospitality.",
+    },
+    {
+        icon: <Package size={48} strokeWidth={1} />,
+        title: "Logistics & Additional Services",
+        description:
+            "From input frames to venue cleaning, we handle all behind-the-scenes logistics to ensure a seamless event experience.",
     },
 ];
 
+
 export default function Services() {
     return (
-        <section className="mb-12 xl:mb-36">
+        <section className="mb-12 xl:mb-36 mt-36">
             <div className="container mx-auto flex flex-col justify-center">
                 <Fade
                     direction="up"

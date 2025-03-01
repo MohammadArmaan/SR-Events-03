@@ -59,7 +59,7 @@ export default function Hero() {
                             damping={1e-1}
                             triggerOnce={true}
                         >
-                            <div className="text-xs md:text-sm uppercase font-semibold mb-4 text-white tracking-[4px]">
+                            <div className="text-lg md:text-xl uppercase font-semibold mb-4 text-white tracking-[4px]">
                                 SR Portraits & Events
                             </div>
                         </Fade>
@@ -103,7 +103,7 @@ export default function Hero() {
                                 triggerOnce={true}
                             >
                                 <div className="mx-auto flex max-w-xs flex-col items-center justify-center gap-y-4">
-                                    <dt className="text-base leading-7 text-gray-200">
+                                    <dt className="text-lg font-semibold leading-7 text-white">
                                         Years of Experience
                                     </dt>
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -116,7 +116,7 @@ export default function Hero() {
                                     </dd>
                                 </div>
                                 <div className="mx-auto flex max-w-xs flex-col items-center justify-center gap-y-4">
-                                    <dt className="text-base leading-7 text-gray-200">
+                                    <dt className="text-lg font-semibold leading-7 text-white">
                                         Followers
                                     </dt>
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -129,7 +129,7 @@ export default function Hero() {
                                     </dd>
                                 </div>
                                 <div className="mx-auto flex max-w-xs flex-col items-center justify-center gap-y-4">
-                                    <dt className="text-base leading-7 text-gray-200">
+                                    <dt className="text-lg font-semibold leading-7 text-white">
                                         Projects
                                     </dt>
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
