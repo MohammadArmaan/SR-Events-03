@@ -10,45 +10,6 @@ import {
 import { Camera, Video, Plane, Monitor, Sparkles, Heart, Music, Utensils, Package } from "lucide-react";
 import Link from "next/link";
 
-// const servicesData = [
-//     {
-//         icon: <Camera size={48} strokeWidth={1} />,
-//         title: "Professional Photography",
-//         description:
-//             "Capture stunning moments with high-resolution photography tailored for every occasion.",
-//     },
-//     {
-//         icon: <Video size={48} strokeWidth={1} />,
-//         title: "Cinematic Videography",
-//         description:
-//             "Experience cinematic storytelling with professional-grade video production services.",
-//     },
-//     {
-//         icon: <Plane size={48} strokeWidth={1} />,
-//         title: "Aerial Drone Shots",
-//         description:
-//             "Take your visuals to new heights with breathtaking drone cinematics and photography.",
-//     },
-//     {
-//         icon: <Monitor size={48} strokeWidth={1} />,
-//         title: "LED Screen Displays",
-//         description:
-//             "Enhance your events with high-quality LED screens for impactful presentations and visuals.",
-//     },
-//     {
-//         icon: <Sparkles size={48} strokeWidth={1} />,
-//         title: "Event Decorations",
-//         description:
-//             "Transform any venue with stunning decorations that set the perfect ambiance.",
-//     },
-//     {
-//         icon: <Heart size={48} strokeWidth={1} />,
-//         title: "Dream Wedding Services",
-//         description:
-//             "Make your special day unforgettable with expert wedding planning and photography.",
-//     },
-// ];
-
 const servicesData = [
     {
         icon: <Camera size={48} strokeWidth={1} />,
