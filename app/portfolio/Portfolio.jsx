@@ -2,7 +2,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useSearchParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 
 const portfolioData = [
@@ -119,6 +119,14 @@ const portfolioData = [
 const uniqueCategories = ["all categories", ...new Set(portfolioData.map((item) => item.category))];
 
 export default function Portfolio() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <PortfolioContent />
+        </Suspense>
+    );
+}
+
+function PortfolioContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
 
