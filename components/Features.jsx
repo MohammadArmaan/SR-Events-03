@@ -8,30 +8,57 @@ import { Fade } from "react-awesome-reveal";
 
 const features = [
     {
-        name: "PHOTOGRAPHY",
+        name: "PHOTOGRAPHY & VIDEOGRAPHY",
         description:
-            "Studio comes with elements made specifically for photographers, including the client list, password protected pages, and the proofing gallery.",
+            "Delivering high-quality, authentic photography and videography with professionalism, creativity, and a commitment to your unique vision.",
         icon: CameraIcon,
     },
     {
         name: "PORTFOLIO LISTS",
         description:
-            "Our photographers are skilled in photography, drone cinematics, and cinematics, ensuring breathtaking visuals for every occasion.",
+            "Browse our portfolio for stunning event photography and videography, along with an easy online store for framed prints to preserve your memories.",
         icon: FolderIcon,
     },
     {
         name: "FULLY CUSTOMIZABLE",
         description:
-            "The photos could be customized into any frame or cup, allowing you to create unique personalized products.",
+            "We provide fully customizable albums, high-quality prints, personalized quotations, and elegant frames, crafted with precision and ethical standards to preserve your cherished memories beautifully.",
         icon: AdjustmentsHorizontalIcon,
     },
     {
         name: "SEAMLESS EVENT EXPERIENCE",
         description:
-            "Easily manage events directly on your website, from scheduling to guest lists, ensuring seamless coordination.",
+            "We provide a seamless event experience with expert coordination, ethical professionalism, and a commitment to excellence, reflecting our team's dedication, integrity, and goodwill in every detail.",
         icon: CalendarDaysIcon,
     },
 ];
+
+// const features = [
+//     {
+//         name: "PHOTOGRAPHY",
+//         description:
+//             "Studio comes with elements made specifically for photographers, including the client list, password protected pages, and the proofing gallery.",
+//         icon: CameraIcon,
+//     },
+//     {
+//         name: "PORTFOLIO LISTS",
+//         description:
+//             "Our photographers are skilled in photography, drone cinematics, and cinematics, ensuring breathtaking visuals for every occasion.",
+//         icon: FolderIcon,
+//     },
+//     {
+//         name: "FULLY CUSTOMIZABLE",
+//         description:
+//             "The photos could be customized into any frame or cup, allowing you to create unique personalized products.",
+//         icon: AdjustmentsHorizontalIcon,
+//     },
+//     {
+//         name: "SEAMLESS EVENT EXPERIENCE",
+//         description:
+//             "Easily manage events directly on your website, from scheduling to guest lists, ensuring seamless coordination.",
+//         icon: CalendarDaysIcon,
+//     },
+// ];
 
 export default function Features() {
     return (
