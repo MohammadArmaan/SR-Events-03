@@ -44,7 +44,7 @@ const portfolioData = [
         codepen: "/",
     },
     {
-        image: "/work/11.jpeg",
+        image: "/work/8.jpeg",
         category: "Photography",
         name: "Cinematic Shoot",
         description: "Artistic visuals with a movie-like aesthetic.",
