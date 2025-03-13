@@ -122,7 +122,7 @@ export default function Hero() {
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
                                         <Badge
                                             icon={<RiBodyScanFill />}
-                                            endCountNum={967}
+                                            endCountNum={6000}
                                             endCountText="+"
                                             badgeText=""
                                         />
@@ -135,7 +135,7 @@ export default function Hero() {
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
                                         <Badge
                                             icon={<RiServiceFill />}
-                                            endCountNum={50}
+                                            endCountNum={175}
                                             endCountText="+"
                                             badgeText=""
                                         />

@@ -16,6 +16,7 @@ import { useToast } from "@/hooks/use-toast";
 import { ToastAction } from "@radix-ui/react-toast";
 import { Toast } from "./ui/toast";
 import { Fade } from "react-awesome-reveal";
+import { supabase } from "@/lib/supabase";
 
 export default function Form() {
     const { toast } = useToast();
@@ -27,20 +28,41 @@ export default function Form() {
 
     function submitHandler(e) {
         e.preventDefault();
-        console.log({ firstName, lastName, email, phoneNo, message });
-        toast({
-            title: "Message Sent",
-            description: "Thank you for sending the message",
-            action: <ToastAction altText="Close">Close</ToastAction>,
-        });
-        setFirstName("");
-        setLastName("");
-        setEmail("");
-        setPhoneNo("");
-        setMessage("");
-    }
+      
+        const contactDetails = {
+          firstName: firstName,
+          lastName: lastName,
+          email: email,
+          phone: phoneNo,
+          message: message,
+        };
+
+        if(!contactDetails) return;
+      
+        supabase
+          .from("contact")
+          .insert([contactDetails])
+          .then(({ data, error }) => {
+            if (error) {
+              console.error("Error submitting form:", error);
+            } else {
+              toast({
+                title: "Message Sent",
+                description: "Thank you for your message",
+                action: <ToastAction altText="Close">Close</ToastAction>,
+              });
+      
+              setFirstName("");
+              setLastName("");
+              setEmail("");
+              setPhoneNo("");
+              setMessage("");
+            }
+          });
+      }
+
     return (
-        <form className="flex flex-col gap-y-4">
+        <form className="flex flex-col gap-y-4" onSubmit={submitHandler}>
             <Fade
                 direction="up"
                 delay={400}
@@ -151,7 +173,6 @@ export default function Form() {
             >
                 <Button
                     className="flex items-center gap-x-1 max-w-[165px]"
-                    onClick={submitHandler}
                 >
                     Let's Talk
                     <ArrowRightIcon size={20} />

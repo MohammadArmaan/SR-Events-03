@@ -55,7 +55,7 @@ const portfolioData = [
         image: "/work/10.jpeg",
         category: "Photography",
         name: "Fashion Shoot",
-        description: "Creative lighting and stylized shots.",
+        description: "Creative lighting and stylized model shoots.",
         link: "/",
         codepen: "/",
     },

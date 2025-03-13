@@ -1,10 +1,49 @@
+'use client'
 import { RiMenFill } from "react-icons/ri";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { CalendarDaysIcon, SparklesIcon } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
+import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
+import { ToastAction } from "@radix-ui/react-toast";
+import { supabase } from "@/lib/supabase";
 
 export default function Vision() {
+    const [email, setEmail] = useState('')
+    const { toast } = useToast();
+
+    async function submitHandler() {
+        if (!email) return;
+    
+        try {
+            const res = await fetch("/api/send-email", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email }),
+            });
+    
+            if (res.ok) {
+                toast({
+                    title: "Subscribed",
+                    description: "Thank you for subscribing!",
+                    action: <ToastAction altText="Close">Close</ToastAction>,
+                });
+                setEmail('')
+            } else {
+                throw new Error("Subscription failed");
+            }
+        } catch (error) {
+            toast({
+                title: "Error",
+                description: "You are already subscribed or an error occurred.",
+                variant: "destructive",
+                action: <ToastAction altText="Close">Close</ToastAction>,
+            });
+        }
+    }
+    
+
     return (
         <section className="mt-[50px]">
             <div className="relative bg-blue-100 overflow-hidden py-16 sm:py-24 lg:py-32">
@@ -58,8 +97,10 @@ export default function Vision() {
                                         autoComplete="email"
                                         required
                                         placeholder="Enter your email"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
                                     />
-                                    <Button>
+                                    <Button onClick={submitHandler}>
                                         Subscribe <RiMenFill size={18} />
                                     </Button>
                                 </div>

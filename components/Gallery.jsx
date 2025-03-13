@@ -36,7 +36,7 @@ const projectData = [
         codepen: "/",
     },
     {
-        image: "/work/3.jpeg",
+        image: "/work/33.jpeg",
         category: "Party",
         name: "Neon Bash",
         description: "Vibrant party moments with energetic captures.",
@@ -64,6 +64,14 @@ const projectData = [
         category: "Party",
         name: "VIP Night",
         description: "Exclusive party photography with lively moments.",
+        link: "/",
+        codepen: "/",
+    },
+    {
+        image: "/work/32.jpeg",
+        category: "Catering",
+        name: "Gourmet Delight",
+        description: "Capturing exquisite culinary artistry and presentation.",
         link: "/",
         codepen: "/",
     },
