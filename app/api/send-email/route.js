@@ -13,13 +13,13 @@ export const POST = async (req) => {
             subject: "🎉 You're In! Welcome to SR Portraits & Events ✨",
             html: `
                 <div style="font-family: Arial, sans-serif; padding: 20px; text-align: center; background-color: #f9f9f9; border-radius: 10px;">
-                    <h2 style="color: #D32F2F;">📸 Welcome to SR Portraits & Events! 🎊</h2>
+                    <h2 style="color: #007bff;">📸 Welcome to SR Portraits & Events! 🎊</h2>
                     <p style="font-size: 16px; color: #333;">We're thrilled to have you on board! Get ready to receive the latest updates, exclusive event sneak peeks, and special offers.</p>
                     <p style="font-size: 16px; color: #333;">Let’s capture memories that last a lifetime! ✨</p>
-                    <a href="https://srportraits.com" style="display: inline-block; padding: 10px 20px; margin-top: 10px; background-color: #D32F2F; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px;">
+                    <a href="https://srportraits.com" style="display: inline-block; padding: 10px 20px; margin-top: 10px; background-color: #007bff; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px;">
                         Explore Now 📷
                     </a>
-                    <p style="margin-top: 20px; font-size: 14px; color: #777;">Follow us on <a href="https://instagram.com/srportraits" style="color: #D32F2F;">Instagram</a> for more updates! 🚀</p>
+                    <p style="margin-top: 20px; font-size: 14px; color: #777;">Follow us on <a href="https://instagram.com/srportraits" style="color: #007bff;">Instagram</a> for more updates! 🚀</p>
                 </div>
             `,
         });

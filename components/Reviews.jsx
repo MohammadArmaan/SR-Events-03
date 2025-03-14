@@ -22,35 +22,28 @@ const reviewData = [
         review: "Absolutely amazing service! The team was professional, and the final outcome exceeded my expectations. Highly recommend!",
     },
     {
-        avatar: "/reviews/avatar-2.png",
-        name: "Sophia",
-        job: "Creative Director",
+        avatar: "/reviews/review-1.jpg",
+        name: "Deepak S.G",
+        job: "Editor & Videographer",
         review: "A fantastic experience from start to finish. The attention to detail and creativity were truly outstanding!",
     },
     {
-        avatar: "/reviews/avatar-3.png",
-        name: "Michael",
-
-        job: "Marketing Manager",
+        avatar: "/reviews/review-2.jpg",
+        name: "Dhananjaya A.R",
+        job: "Photographer",
         review: "Top-notch quality and fast delivery! I am beyond satisfied with the results and will definitely return for future projects.",
     },
     {
-        avatar: "/reviews/avatar-4.png",
-        name: "Emily",
-        job: "Photographer",
+        avatar: "/reviews/review-3.jpg",
+        name: "Gireesh",
+        job: "Decorator",
         review: "Excellent work! The team was responsive, and the level of expertise shown in the final product was remarkable.",
     },
     {
-        avatar: "/reviews/avatar-5.png",
-        name: "David",
-        job: "Event Planner",
+        avatar: "/reviews/review-4.jpg",
+        name: "Manu H.S",
+        job: "Decorator",
         review: "From start to finish, everything was smooth and professional. The outcome was exactly what I envisioned!",
-    },
-    {
-        avatar: "/reviews/avatar-6.png",
-        name: "James",
-        job: "Entrepreneur",
-        review: "One of the best services I have used! Highly skilled and great communication throughout the process.",
     },
 ];
 
@@ -102,7 +95,7 @@ export default function Reviews() {
                                                 height={70}
                                                 alt=""
                                                 priority
-                                                className="mb-2"
+                                                className="mb-2 rounded-full shadow-md"
                                             />
                                             <div className="flex flex-col">
                                                 <CardTitle>
