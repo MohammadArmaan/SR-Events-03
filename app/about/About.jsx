@@ -83,6 +83,17 @@ export default function About() {
                                     memorable.
                                 </p>
                             </Fade>
+                            <Fade
+                                direction="up"
+                                delay={1400}
+                                cascade
+                                damping={1e-1}
+                                triggerOnce={true}
+                            >
+                                <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                                    Let us turn your special moments into timeless memories that you will cherish forever.
+                                </p>
+                            </Fade>
                         </div>
                     </div>
                 </div>

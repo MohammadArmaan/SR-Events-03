@@ -16,9 +16,9 @@ import { Fade } from "react-awesome-reveal";
 
 const reviewData = [
     {
-        avatar: "/reviews/avatar-1.png",
-        name: "Jennifer",
-        job: "Chief",
+        avatar: "/reviews/review-5.jpg",
+        name: "Prajwal Rangegowda",
+        job: "Chief & Event Planner",
         review: "Absolutely amazing service! The team was professional, and the final outcome exceeded my expectations. Highly recommend!",
     },
     {
