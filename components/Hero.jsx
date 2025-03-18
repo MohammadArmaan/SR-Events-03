@@ -65,7 +65,7 @@ export default function Hero() {
                         </Fade>
                         <h1 className="text-5xl md:text-6xl font-bold">{text}|</h1>
                         <p className="max-w-[590px] mt-4 mx-auto xl:mx-0 text-white">
-                            SR Portraits and Events is a premier photography and
+                            SR Portraits and Events is a premium photography and
                             event management company dedicated to capturing
                             unforgettable moments and crafting seamless
                             experiences.
